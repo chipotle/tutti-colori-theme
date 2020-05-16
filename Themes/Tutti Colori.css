@@ -1,0 +1,328 @@
+meta {
+    -theme-interface-style: light;
+    -theme-vibrancy: none;
+    -theme-accent-color: auto;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: #f8f8f8;
+    border-color: #ccc;
+}
+meta.titlebar {
+    color: #333;
+    background: #f8f8f8;
+    border-color: #999;
+}
+meta.titlebar.inactive {
+    background-color: #f0f0f0;
+}
+
+meta.button {
+    background: #ddd;
+    border: #888;
+    color: #666;
+}
+meta.button.highlighted {
+    background: #666;
+    color: #ddd;
+}
+meta.button.selected {
+    color: #111;
+}
+meta.button.highlighted.selected {
+    color: #111;
+}
+meta.button.disabled {
+    background: #ccc;
+    border: #bbb;
+    color: #aaa;
+}
+
+meta.textfield {
+    background-color: #f8f8fa;
+    border-color: #c8c8ca;
+}
+
+/* if this does anything, I sure can't find it */
+meta.accent {
+    color: rgba(251, 233, 173, 0.8);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: #fdfdfd;
+    border-color: hsba(0, 0%, 100%, 0.1);
+}
+
+/* TODO:
+meta.document.button
+meta.document.button.disabled
+meta.document.button.highlighted
+meta.document.textfield
+*/
+
+/* Text */
+meta.text {
+    color: #222;
+}
+meta.text.invisible {
+    color: #eee;
+}
+meta.text.selected {
+    background-color: rgba(251, 233, 173, 0.8);
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: rgba(222, 228, 234, 0.4);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: #eee;
+}
+
+/* Gutter */
+meta.gutter {
+    color: #ccc;
+}
+meta.gutter.selected {
+    color: #000;
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: #6700b9;
+}
+comment {
+    color: #b2b2b2;
+    font-style: italic;
+}
+processing {
+    color: #d4430d;
+}
+declaration {
+    color: #b2b2b2;
+}
+bracket {
+    color: #000;
+}
+operator {
+    color: #000;
+}
+invalid {
+    background-color: #f93232;
+    color: #f9f2ce;
+}
+link {
+    color: #246f9f;
+    text-decoration: underline;
+}
+
+/* Values */
+value.boolean {
+    color: #7653c1;
+    background-color: #f3f2ff;
+}
+value.null {
+    color: #7653c1;
+    background-color: #f3f2ff;
+}
+value.number {
+    color: #7653c1;
+    background-color: #f3f2ff;
+}
+value.entity {
+    color: #4f9fcf;
+}
+value.symbol {
+    color: #4f9fcf;
+}
+
+/* Identifiers */
+identifier.type {
+    color: #4f9fcf;
+}
+/* Correct for Espresso, but is not identically scoped in Nova */
+/* identifier.constant {
+    color: #7653c1;
+    background-color: #f3f2ff;
+} */
+identifier.constant, identifier.variable, identifier.global {
+    color: #4f9fcf;
+}
+identifier.property,
+identifier.decorator,
+identifier.method,
+identifier.function {
+    color: #3a1d72;
+}
+identifier.argument {
+    font-style: italic;
+}
+
+/* Strings */
+string {
+    color: #bc670f;
+    background-color: rgba(251, 233, 173, 0.1);
+}
+string.key {
+    color: #bc670f;
+    background-color: rgba(251, 233, 173, 0.1);
+}
+string-template {
+    color: #bc670f;
+    background-color: rgba(251, 233, 173, 0.1);
+}
+string-template.value {
+    font-weight: bold;
+}
+regex {
+    color: #43a202;
+}
+regex.escaped {
+    color: rgba(156, 225, 26, 0.1);
+}
+cdata {
+    color: #333;
+    background: #eee;
+}
+
+/* Markup */
+markup.heading {
+    color: #d44950;
+    font-weight: bold;
+}
+markup.line {
+    color: #d44950;
+}
+markup.bold {
+    font-weight: bold;
+}
+markup.italic {
+    font-style: italic;
+}
+markup.strikethrough {
+    color: #a00;
+    text-decoration: strike-through;
+}
+markup.list.item {
+    
+}
+markup.code {
+    color: #bc670f;
+    background-color: rgba(251, 233, 173, 0.1);
+}
+markup.link {
+
+}
+markup.image {
+    
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    color: #3a1d72;
+}
+
+/* Members */
+/*
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    font-weight: bold;
+}
+*/
+property.name,
+function.name,
+method.name {
+    font-weight: bold;
+}
+
+/* Might make that just method.name and function.name? */
+
+/* Tags */
+tag {
+    color: #2f6f9f;
+}
+tag.name {
+    background-color: #f4faff;
+}
+tag.framework {
+    color: #d44950;
+}
+tag.attribute {
+    background-color: transparent;
+}
+tag.attribute.name {
+    color: #4f9fcf;
+}
+tag.attribute.value {
+    color: #d44950;
+}
+tag.attribute.value.link {
+    text-decoration: underline;
+}
+
+/* Styles */
+style.at {
+    font-weight: bold;
+}
+style.selector.element {
+
+}
+style.selector {
+    color: #3a77bf;
+}
+style.selector.identifier.id {
+    font-style: italic;
+}
+style.selector.identifier.class {
+
+}
+style.selector.pseudoclass {
+    color: #4e279a;
+}
+style.selector.pseudoelement {
+    color: #4e279a;
+}
+style.attribute.name {
+    color: #d4430d;
+}
+style.value {
+    color: #43a202;
+    background-color: transparent;
+}
+style.variable {
+    color: #4e279a;
+}
+style.value.number {
+
+}
+style.value.color.hex {
+
+}
+style.value.keyword {
+
+}
+style.value.color.named {
+
+}
+style.value.identifier.function {
+    color: #222;
+    font-weight: bold;
+}
