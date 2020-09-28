@@ -73,7 +73,7 @@ meta.text {
   color: #222;
 }
 meta.text.invisible {
-  color: #eee;
+  color: #b2b2b2;
 }
 meta.text.selected {
   background-color: rgba(251, 233, 173, 0.8);
@@ -86,7 +86,7 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: #eee;
+  border-color: #ddf;
 }
 
 /* Gutter */

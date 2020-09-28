@@ -1,6 +1,11 @@
+## Version 1.01
+
+- Darken invisible characters so "Show Invisible Characters" actually does
+- Darken indent guides slightly
+
 ## Version 1.0
 
-Minor window styling fixes
+- Improvements to window styling
 
 ## Version 0.9
 
