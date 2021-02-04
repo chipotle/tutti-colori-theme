@@ -2,7 +2,7 @@
 
 Tutti Colori is a light color scheme, original to Kangacode's [Espresso][1] web editor (originally developed by MacRabbit).
 
-![]()
+![](https://raw.githubusercontent.com/chipotle/tutti-colori-theme/master/Images/tutti-colori-nova.png)
 
 The colors and scoping mostly stay faithful to the original scheme, but while Nova and Espresso have similar theming engines they're not identical. There are ssome minor changes based on personal preference, most notably italicizing comments.
 
