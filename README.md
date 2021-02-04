@@ -1,7 +1,9 @@
-# Tutti Colori
+# Tutti Colori for Nova
 
-*A light theme for Nova*
+Tutti Colori is a light color scheme, original to Kangacode's [Espresso][1] web editor (originally developed by MacRabbit).
 
-**Tutti Colori** is taken from the default light theme from Kangacode's Espresso web editor (originally developed by MacRabbit). The colors and scoping try to stay faithful to the source. Deviations are mostly due to differences between Nova's syntax scoping and Espresso's, although there are a couple changes based on personal preference (most notably italicizing comments).
+![]()
+
+The colors and scoping mostly stay faithful to the original scheme, but while Nova and Espresso have similar theming engines they're not identical. There are ssome minor changes based on personal preference, most notably italicizing comments.
 
 The theme has been tested so far with HTML, CSS, SCSS, JavaScript, PHP, and Ruby.

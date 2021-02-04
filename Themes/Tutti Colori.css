@@ -47,12 +47,6 @@ meta.textfield {
   border-color: #c8c8ca;
 }
 
-/* if this does anything, I sure can't find it
-meta.accent {
-  color: rgba(251, 233, 173, 0.8);
-}
-*/
-
 /*
  * Document styles
  */
@@ -101,7 +95,9 @@ meta.gutter.selected {
  * Syntax styles
  */
 
-keyword {
+keyword,
+identifier.function.keyword,
+static.declaration {
   color: #6700b9;
 }
 comment {
@@ -128,6 +124,14 @@ link {
   color: #246f9f;
   text-decoration: underline;
 }
+static.constant {
+  color: #4f9fcf;
+  font-weight: bold;
+}
+definition.extends {
+  color: #6700b9;
+  font-style: italic;
+}
 
 /* Values */
 value.boolean {
@@ -153,11 +157,10 @@ value.symbol {
 identifier.type {
   color: #4f9fcf;
 }
-/* Correct for Espresso, but is not identically scoped in Nova */
-/* identifier.constant {
-    color: #7653c1;
-    background-color: #f3f2ff;
-} */
+identifier.constant {
+  color: #7653c1;
+  background-color: #f3f2ff;
+}
 identifier.constant,
 identifier.variable,
 identifier.global {
@@ -173,28 +176,32 @@ identifier.argument {
   font-style: italic;
   color: #4f9fcf;
 }
+identifier.variable.prefix {
+  font-weight: bold;
+}
 
 /* Strings */
 string {
   color: #bc670f;
-  background-color: rgba(251, 233, 173, 0.1);
+  background-color: rgba(251, 233, 173, 0.12);
 }
 string.key {
-  color: #bc670f;
-  background-color: rgba(251, 233, 173, 0.1);
+  color: #4f9fcf;
+  /* background-color: rgba(251, 233, 173, 0.12); */
 }
 string-template {
   color: #bc670f;
-  background-color: rgba(251, 233, 173, 0.1);
+  background-color: rgba(251, 233, 173, 0.8);
+}
+string-template.variable {
 }
 string-template.value {
-  font-weight: bold;
 }
 regex {
   color: #43a202;
 }
 regex.escaped {
-  color: rgba(156, 225, 26, 0.1);
+  color: rgba(156, 225, 26, 0.12);
 }
 cdata {
   color: #333;
@@ -223,7 +230,7 @@ markup.list.item {
 }
 markup.code {
   color: #bc670f;
-  background-color: rgba(251, 233, 173, 0.1);
+  background-color: rgba(251, 233, 173, 0.12);
 }
 markup.link {
 }
@@ -241,20 +248,11 @@ definition.struct struct.name {
 }
 
 /* Members */
-/*
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    font-weight: bold;
-}
-*/
-property.name,
-function.name,
-method.name {
   font-weight: bold;
 }
-
-/* Might make that just method.name and function.name? */
 
 /* Tags */
 tag {
