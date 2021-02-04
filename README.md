@@ -6,4 +6,8 @@ Tutti Colori is a light color scheme, original to Kangacode's [Espresso][1] web 
 
 The colors and scoping mostly stay faithful to the original scheme, but while Nova and Espresso have similar theming engines they're not identical. There are ssome minor changes based on personal preference, most notably italicizing comments.
 
-The theme has been tested so far with HTML, CSS, SCSS, JavaScript, PHP, and Ruby.
+The theme has been tested with HTML, CSS, SCSS, JavaScript, PHP (including Advanced PHP), and Ruby.
+
+The font used in the screenshot is MB Type's Triplicate Code.
+
+https://typographyforlawyers.com/triplicate.html
