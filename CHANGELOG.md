@@ -1,11 +1,11 @@
-## Version 1.1
+## Version 1.2
 
 - Correct `string.key` and `string-template` values
 - Add `identifier.constant` back
 - Add tweaks for Advanced PHP syntax
 - Slightly increase contrast of some background elements
 
-## Version 1.01
+## Version 1.1
 
 - Darken invisible characters so "Show Invisible Characters" actually does
 - Darken indent guides slightly
