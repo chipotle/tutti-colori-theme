@@ -227,12 +227,13 @@ markup.strikethrough {
   text-decoration: strike-through;
 }
 markup.list.item {
+  color: #43a202;
 }
 markup.code {
   color: #bc670f;
   background-color: rgba(251, 233, 173, 0.12);
 }
-markup.link {
+markup.link-reference {
 }
 markup.image {
 }
