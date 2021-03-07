@@ -8,6 +8,7 @@ The colors and scoping mostly stay faithful to the original scheme, but while No
 
 The theme has been tested with HTML, CSS, SCSS, JavaScript, PHP (including Advanced PHP), and Ruby.
 
-The font used in the screenshot is MB Type's Triplicate Code.
+The font used in the screenshot is [MB Type's Triplicate Code][2].
 
-https://typographyforlawyers.com/triplicate.html
+[1]: https://www.espressoapp.com
+[2]: https://typographyforlawyers.com/triplicate.html
